@@ -136,7 +136,6 @@ button {
 }
 
 .page-header .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -694,13 +693,6 @@ button {
 
 .page-footer {
   background-color: #2e2f42;
-  padding-top: 97.5px;
-  padding-bottom: 96px;
-}
-
-.page-footer .container {
-  display: flex;
-  flex-direction: column;
 }
 
 .logo-light {
@@ -744,9 +736,10 @@ button {
 }
 
 .page-footer .container {
-  display: flex;
   flex-direction: column;
   gap: 72px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .socoal-icon-link.footer:hover,
@@ -807,6 +800,12 @@ button {
   align-items: center;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
 }
 
 .send-icon {
@@ -1056,7 +1055,7 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  margin-right: 7.5px;
+  margin-right: 8px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1109,7 +1108,7 @@ button {
 }
 
 .form-submit-btn:hover,
-.order-btn:focus {
+.form-submit-btn:focus {
   background-color: #404bbf;
 }
 
