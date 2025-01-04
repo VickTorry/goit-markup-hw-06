@@ -372,7 +372,7 @@ button {
   max-width: 320px;
 }
 
-@media screen and (min-width: 758px) {
+@media screen and (min-width: 768px) {
   .advantages-list {
     display: flex;
     flex-direction: row;
@@ -772,6 +772,7 @@ button {
   padding-left: 16px;
   width: 288px;
   height: 40px;
+  color: #ffffff;
 }
 
 .subscribe-enter::placeholder {
