@@ -429,6 +429,7 @@ button {
     gap: 24px;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: baseline;
   }
 
   .section.advantages {
